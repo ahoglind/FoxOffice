@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.0" />
-    <PackageReference Include="Khala.Messaging.Abstraction" Version="0.19.7" />
+    <PackageReference Include="Khala.Messaging.Abstraction" Version="0.19.12" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta009">
       <PrivateAssets>all</PrivateAssets>

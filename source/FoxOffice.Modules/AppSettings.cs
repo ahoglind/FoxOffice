@@ -6,6 +6,7 @@
             string storageConnectionString,
             string messageQueueName,
             string eventStoreTableName,
+            string mementStoreBlobName,
             string cosmosDbEndpoint,
             string cosmosDbAuthKey,
             string readModelDatabaseId,
@@ -14,6 +15,7 @@
             StorageConnectionString = storageConnectionString;
             MessageQueueName = messageQueueName;
             EventStoreTableName = eventStoreTableName;
+            MementoStoreBlobName = mementStoreBlobName;
             CosmosDbEndpoint = cosmosDbEndpoint;
             CosmosDbAuthKey = cosmosDbAuthKey;
             ReadModelDatabaseId = readModelDatabaseId;
@@ -25,6 +27,8 @@
         public string MessageQueueName { get; }
 
         public string EventStoreTableName { get; }
+
+        public string MementoStoreBlobName { get; set; }
 
         public string CosmosDbEndpoint { get; }
 

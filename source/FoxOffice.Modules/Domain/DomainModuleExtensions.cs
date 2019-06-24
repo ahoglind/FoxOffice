@@ -15,6 +15,13 @@
             builder.RegisterInstance(factory);
         }
 
+        public static void RegisterFactory<T>(
+           this ContainerBuilder builder,
+           Func<Guid, IMemento, IEnumerable<IDomainEvent>, T> factory)
+        {
+            builder.RegisterInstance(factory);
+        }
+
         public static void RegisterRepository<T>(this ContainerBuilder builder)
              where T : class, IEventSourced
         {

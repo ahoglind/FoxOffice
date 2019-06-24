@@ -7,5 +7,6 @@
         public const string ConnectionString = "UseDevelopmentStorage=true";
         public const string MessageQueueName = "foxoffice-test-messages";
         public const string EventStoreTableName = "FoxOfficeTestEventStore";
+        public const string MementoStoreBlobName = "foxoffice-test-memento-store";
     }
 }

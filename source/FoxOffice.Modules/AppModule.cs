@@ -22,7 +22,8 @@
 
                 new DomainModule(
                     settings.StorageConnectionString,
-                    settings.EventStoreTableName),
+                    settings.EventStoreTableName,
+                    settings.MementoStoreBlobName),
 
                 new ReadModelModule(
                     settings.CosmosDbEndpoint,

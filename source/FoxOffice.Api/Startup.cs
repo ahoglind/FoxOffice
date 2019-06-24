@@ -21,6 +21,7 @@
                 config.GetConnectionString("Storage"),
                 config["Messaging:Storage:QueueName"],
                 config["Domain:Storage:EventStoreTableName"],
+                config["Domain:Storage:MementoStoreBlobName"],
                 config["ReadModel:CosmosDb:Endpoint"],
                 config["ReadModel:CosmosDb:AuthKey"],
                 config["ReadModel:CosmosDb:DatabaseId"],
